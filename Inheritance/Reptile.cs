@@ -10,11 +10,11 @@ namespace Inheritance
             Class = "Reptilia";
         }
 
-        public int NumberOfLungs;
-        public bool HasBackbone = true;
-        public bool HasScales = true;
-        public bool HasVenom;
-        public string LengthRange;
+        public int NumberOfLungs { get; set; }
+        public bool HasBackbone { get; set; } = true;
+        public bool HasScales { get; set; } = true;
+        public bool HasVenom { get; set; }
+        public string LengthRange { get; set; }
 
         public void DisplayInformation(string name)
         {

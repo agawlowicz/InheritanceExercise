@@ -7,9 +7,9 @@ namespace Inheritance
         {
         }
 
-        public string Phylum;
-        public string Class;
-        public bool IsWarmBlooded;
-        public bool LaysEggs;
+        public string Phylum { get; set; }
+        public string Class { get; set; }
+        public bool IsWarmBlooded { get; set; }
+        public bool LaysEggs { get; set; }
     }
 }

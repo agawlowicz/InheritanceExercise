@@ -9,10 +9,10 @@ namespace Inheritance
             Class = "Aves";
         }
 
-        public int NumberOfHeartChambers = 4;
-        public bool Beak = true;
-        public string WingspanRange;
-        public bool CanFly;
+        public int NumberOfHeartChambers { get; set; } = 4;
+        public bool Beak { get; set; } = true;
+        public string WingspanRange { get; set; }
+        public bool CanFly { get; set;  }
 
         public void DisplayInformation(string birdName) //how to use just the object bird from main program
         {
